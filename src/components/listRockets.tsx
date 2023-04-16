@@ -9,12 +9,9 @@ import {
 } from '@chakra-ui/react';
 import { useEffect, useRef, useState } from 'react';
 import InfiniteScroll from 'react-infinite-scroll-component';
-import anime from 'animejs';
 import 'tailwindcss/tailwind.css';
 import FadeUp from './fadeUp';
-import { BsFillRocketFill } from 'react-icons/Bs';
 import PopTop from './popTop';
-import { MdAddCircleOutline } from 'react-icons/md';
 import { AiFillAppstore } from 'react-icons/ai';
 import { AiOutlineMenu } from 'react-icons/ai';
 

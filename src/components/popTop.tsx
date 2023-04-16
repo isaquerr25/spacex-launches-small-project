@@ -1,7 +1,5 @@
 import Popup from 'reactjs-popup';
 import 'reactjs-popup/dist/index.css';
-import { AiFillCloseCircle, AiOutlineMail } from 'react-icons/ai';
-import { FiShare2 } from 'react-icons/fi';
 import React, { useState, useEffect, FormEvent, ReactNode } from 'react';
 import YouTube from 'react-youtube';
 import { Box, Button, Flex, Text } from '@chakra-ui/react';
@@ -9,7 +7,7 @@ import FadeUp from './fadeUp';
 import { FaBeer } from 'react-icons/fa';
 import { MdOutlineArticle } from 'react-icons/md';
 import { BsWikipedia } from 'react-icons/Bs';
-import { GiMissileLauncher } from 'react-icons/Gi';
+import { RiMistFill } from 'react-icons/ri';
 import { GiSubmarineMissile } from 'react-icons/Gi';
 import { FaCompressAlt } from 'react-icons/fa';
 import { AiFillRedditCircle } from 'react-icons/ai';
@@ -131,7 +129,7 @@ const PopTop: React.FC<PopTopProps> = ({ children, launch }) => {
                   },
                   {
                     link: launch.links.mission_patch,
-                    Icon: GiMissileLauncher,
+                    Icon: RiMistFill,
                     info: 'mission_patch',
                   },
                   {
