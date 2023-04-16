@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+body {
+  @apply !bg-gray-900 !text-[white];
+}
+
+button {
+  @apply m-[0rem] px-[1.5rem] py-[0.5rem] rounded-[0.3rem] !bg-[transparent]  text-[1rem] hover:bg-[#fff2] transition duration-300;
+}
+
+input {
+  outline: none;
+}
+
+.popup-content {
+  @apply bg-gray-900  text-[white] border-[2px] border-[#36d7b7]  rounded-[0.3rem] p-0 w-[80vw] xl:w-[60rem];
+}
+
+.popup-content .close {
+  @apply border-[0px] cursor-pointer absolute text-[24px] mt-0 p-0;
+  right: 0;
+  top: 50%;
+  transform: translate(-0.3rem, -50%);
+}
+
+
+.zoom {
+  
+  transition: transform .2s; /* Animation */
+
+}
+
+.zoom:hover {
+  transform: scale(1.04); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}

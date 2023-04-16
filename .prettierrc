@@ -1,0 +1,44 @@
+{
+    "arrowParens": "always",
+    "overrides": [
+      {
+        "files": [
+          "**/*.css",
+          "**/*.scss",
+          "**/*.html"
+        ],
+        "options": {
+          "singleQuote": false
+        }
+      },
+      {
+        "files": [
+          "*.js",
+          "*.jsx",
+          "*.ts",
+          "*.tsx"
+        ],
+        "options": {
+          "importDeclarationSortOrder": [
+            "asc",
+            "asc",
+            "asc"
+          ],
+          "importNewlines": true,
+          "importOrder": [
+            "builtin",
+            "external",
+            "internal"
+          ],
+          "semi": true,
+          "singleQuote": true,
+          "tabWidth": 2,
+          "trailingComma": "es5"
+        }
+      }
+    ],
+    "semi": true,
+    "singleQuote": true,
+    "tabWidth": 2,
+    "useTabs": false
+  }
